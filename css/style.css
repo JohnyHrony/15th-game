@@ -1,0 +1,59 @@
+﻿#gameField {
+	margin: 100px auto;
+	display: block;
+}
+
+.start{
+	width: 300px;
+	height: 500px;
+	border: 1px solid gray;
+	position: fixed;
+}
+
+#start {
+	width:200px;
+	padding: 10px 15px;
+	margin: 25px auto 0 auto;
+	display:block;
+}
+
+#restart{
+	width:200px;
+	padding: 10px 15px;
+	margin: 25px auto 0 auto;
+	display:none;
+}
+
+.timer{
+	width: 230px;
+	margin: 25px auto 0 auto;
+	font-size: 36px;
+}
+
+.timer span{
+	display: inline-block;
+}
+
+#min {
+	width: 36%;
+	text-align: right;
+}
+
+#sec{
+	width: 36%;
+	text-align: left;
+}
+
+.two_dots {
+	width: 15%;
+	text-align: center;
+}
+
+.count {
+	width: 230px;
+	margin: 25px auto 0 auto;
+}
+
+.count span {
+	font-size: 28px;
+}
